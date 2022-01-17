@@ -1,0 +1,13 @@
+#box{
+  background-color:rgb(48, 33, 48); 
+  box-shadow: 7px 7px 0 black;
+  width: 450px;
+  height: 130px;
+  text-align: center;
+  margin-left: 120px;
+  margin-top: 80px;
+}
+
+#box h1{
+  margin-bottom: 28px;
+}
