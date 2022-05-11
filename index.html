@@ -11,14 +11,19 @@
         <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital@1&family=Roboto&display=swap" rel="stylesheet">
 
         <link rel="stylesheet" href="reset.css">
-        <link rel="stylesheet" href="components/title.css">
-        <link rel="stylesheet" href="components/subtitle.css">
-        <link rel="stylesheet" href="Components/box.css">
-        <link rel="stylesheet" href="Components/button.css">
-        <link rel="stylesheet" href="Components/action.css">
-        <link rel="stylesheet" href="Components/header.css">
-        <link rel="stylesheet" href="Components/banner.css">
-    
+        <link rel="stylesheet" href="Components/action-link.css">
+        <link rel="stylesheet" href="Components/banner-first.css">
+        <link rel="stylesheet" href="Components/box-title.css">
+        <link rel="stylesheet" href="Components/button-s.css">
+        <link rel="stylesheet" href="Components/header-action.css">
+        <link rel="stylesheet" href="Components/main-title.css">
+        <link rel="stylesheet" href="Components/progress-bar.css">
+        <link rel="stylesheet" href="Components/projetos-section.css">
+        <link rel="stylesheet" href="Components/skills-tec.css">
+        <link rel="stylesheet" href="Components/sub-title.css">
+        <link rel="stylesheet" href="Components/wrapper-skill.css">
+
+        
 
     </head>
     <body>
@@ -35,27 +40,123 @@
         </header> 
 
        
-    <section class="banner">
+        <section class="banner">
 
-        <div class="wrapper">
+            <div class="wrapper">
             
-            <div class="box"> 
+             <div class="box"> 
 
-                <h1 class="title">Felipe Delgado
-                    <p class="subtitle"> FrontEnd Developer</p>   
-                </h1>
+                    <h1 class="main-title">Felipe Delgado
+                        <p class="subtitle"> FrontEnd Developer</p>   
+                    </h1>
 
+                </div>
+
+                <div class="navigation">
+                        <a class="button1" href="" lang="en" >Download CV</a>
+                        <a class="button2" href="">Contatos</a> 
+                </div>
             </div>
+                
+        </section>
+    
 
-            <div class="navigation">
-                    <a class="button1" href="" lang="en" >Download CV</a>
-                    <a class="button2" href="">Contatos</a> 
+
+        <section class="banner -sec">
+                    
+            <h2 class="main-title -second">Skills</h2> 
+
+            <div class="wrapper-skill">
+                <article class="skills-tec"> <!-- a tag "dl" significa Description list, porém mudamos pra article-->
+                    <img class="icon" src="assets/img/icohtml5.png" alt="icone html">
+                    <div class="right">
+                        <h3 class="title"> HTML </h3>
+                        <progress class="progress-bar"  max="100" value="70">
+                                70%
+                        </progress>                           
+                    </div>
+                </article> 
+
+                <article class="skills-tec">
+                    <img class="icon" src="assets/img/ico_nodejs.png" alt="icone nodejs">
+                    <div class="right">
+                        <h3 class="title"> NodeJS </h3>
+                        <progress class="progress-bar"  max="100" value="70">
+                                70%
+                        </progress>                           
+                    </div>
+                </article> 
+
+                <article class="skills-tec">
+                    <img class="icon" src="assets/img/ico_css3.png" alt="icone css3">
+                    <div class="right">
+                        <h3 class="title"> CSS </h3>
+                        <progress class="progress-bar"  max="100" value="70">
+                                70%
+                        </progress>                           
+                    </div>
+                </article>
+
+                <article class="skills-tec">
+                    <img class="icon" src="assets/img/ico_tdd.png" alt="icone tdd">
+                    <div class="right">
+                        <h3 class="title"> TDD </h3>
+                        <progress class="progress-bar"  max="100" value="70">
+                                70%
+                        </progress>                           
+                    </div>
+                </article>
+
+                <article class="skills-tec">
+                    <img class="icon" src="assets/img/ico_js.png" alt="icone js">
+                    <div class="right">
+                        <h3 class="title"> JavaScript </h3>
+                        <progress class="progress-bar"  max="100" value="70">
+                                70%
+                        </progress>                           
+                    </div>
+                </article>
+
+                <article class="skills-tec">
+                    <img class="icon" src="assets/img/ico_restapi.png" alt="icone rest api">
+                    <div class="right">
+                        <h3 class="title"> Rest API </h3>
+                        <progress class="progress-bar"  max="100" value="70">
+                                70%
+                        </progress>                           
+                    </div>
+                </article>
+
+                <article class="skills-tec">
+                        <img class="icon" src="assets/img/ico_react.png" alt="icone react">
+                        <div class="right">
+                            <h3 class="title"> React </h3>
+                            <progress class="progress-bar"  max="100" value="70">
+                                    70%
+                            </progress>                           
+                        </div>
+                </article>
+
+                <article class="skills-tec">
+                    <img class="icon" src="assets/img/ico_ux.png" alt="icone ux">
+                    <div class="right">
+                        <h3 class="title"> UX </h3>
+                        <progress class="progress-bar"  max="100" value="70">
+                                70%
+                        </progress>                           
+                    </div>
+                </article>
+            </div>                                                  
+        </section>
+
+        <section class="banner -third">
+            <h2 class="main-title -third">Projetos</h2>
+            <div class="projetos">
+                <img class="icon -proj" src="assets/img/logo-firedlabs.png" alt="logo firedlabs">
+                <img class="icon -proj" src="assets/img/logo-collabcode.png" alt="logo collabcode">
+                <img class="icon -proj" src="assets/img/logo.png" alt="Portifolio">
             </div>
-        </div>
-            
-    </section>
-
-
+        </section>
 
     </body>
 </html>     
