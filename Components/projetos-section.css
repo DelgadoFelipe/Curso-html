@@ -1,0 +1,33 @@
+.projetos{
+  width: 1152px;
+  height: 280px;
+  margin: auto;
+  align-content: center;
+}
+
+.projetos .icon.-proj{
+  display: inline-flex;
+  width: 250px;
+  height: 250px;
+  margin-left: 25px;
+  border: 6px solid #4C5B84;
+  background-color: #4C5B84;
+  box-shadow: 7px 7px 0 rgb(58, 9, 138);
+}
+
+.projetos .icon.-proj:nth-child(2){
+  margin-right: 130px;
+  margin-left: 152px;  
+}
+
+.projetos .icon.-proj:nth-child(1){
+  border: 6px solid #7C5E99;
+  background-image: url(../assets/img/background.png)
+
+}
+
+.projetos .icon.-proj:nth-child(3){
+  width: 260px;
+  border: none;
+  height: 260px;
+}
