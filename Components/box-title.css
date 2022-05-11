@@ -1,0 +1,11 @@
+.box{
+  background-image: url(../assets/img/background.box.jpg);
+  box-shadow: 7px 7px 0 black;
+  width: 450px;
+  height: 130px;
+  text-align: center;
+}
+
+.box title{
+  margin-bottom: 28px;
+}

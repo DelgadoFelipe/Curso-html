@@ -1,0 +1,31 @@
+.skills-tec{
+  display: flex;
+  align-items: center;
+  font-family: "Fira Code", Arial, sans-serif;
+  font-size: 25px;
+  color:rgb(0, 255, 179);
+  margin: auto;
+}
+
+.skills-tec:nth-child(odd){
+  margin-right: 100px;
+}
+
+.skills-tec .icon:nth-child(1n+1){
+  margin-top: 20px;
+}
+
+.skills-tec .icon{
+  margin-right: 25px;
+  width: 100px;
+}
+
+.skills-tec .progress{
+  max-width: 320px;
+}
+
+.skills-tec .right{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
